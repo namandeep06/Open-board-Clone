@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="options-cont"><i class="fas fa-bars"></i></div>
+    <div class="toolbar scale-tools">
+        <div class="tool" id="pencil">
+            <img src="images/pencil.png" alt="" class="tool-img">
+            <div class="size-box">
+                <div class="size1 size"></div>
+                <div class="size2 size"></div>
+                <div class="size3 size"></div>
+                <div class="size4 size"></div>
+            </div>
+
+        </div>
+        <div class="tool" id="eraser">
+            <img src="images/eraser.png" alt="" class="tool-img">
+            <div class="size-box">
+                <div class="size1 size"></div>
+                <div class="size2 size"></div>
+                <div class="size3 size"></div>
+                <div class="size4 size"></div>
+            </div>
+        </div>
+        <div class="tool" id="rectangle">
+
+
+            <img src="images/rectangle.png" alt="" class="tool-img">
+            <div class="size-box">
+                <div class="size1 size"></div>
+                <div class="size2 size"></div>
+                <div class="size3 size"></div>
+                <div class="size4 size"></div>
+            </div>
+        </div>
+        <div class="tool" id="line">
+
+            <img src="images/line.jpg" alt="" class="tool-img">
+            <div class="size-box">
+                <div class="size1 size"></div>
+                <div class="size2 size"></div>
+                <div class="size3 size"></div>
+                <div class="size4 size"></div>
+            </div>
+        </div>
+
+        <div class="tool" id="sticky">
+            <img src="images/sticky.png" alt="" class="tool-img">
+        </div>
+
+        <div class="color-container">
+            <!-- single unit treat -->
+            <div class="color purple"></div>
+            <div class="color green"></div>
+            <div class="color yellow"></div>
+        </div>
+    </div>
+    <canvas>
+
+    </canvas>
+    <!-- variable declare -->
+    <script src="javascript/setup.js"> </script>
+    <!-- pencil line rect code -->
+    <script src="javascript/draw.js"></script>
+    <!-- tool manipulation -->
+    <script src="javascript/toolmanip.js"></script>
+    <!-- color change -->
+    <script src="javascript/colorchange.js"> </script>
+    <!-- size change -->
+    <script src="javascript/size.js"></script>
+    <!-- sticky notes -->
+    <script src="javascript/sticky.js"></script>
+</body>
+
+</html>
